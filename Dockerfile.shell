@@ -6,4 +6,6 @@ WORKDIR /app
 
 COPY src /app
 
-CMD ['rasa', 'run', 'actions']
+RUN rasa train
+
+CMD ["rasa", "shell"]
