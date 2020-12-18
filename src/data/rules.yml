@@ -21,3 +21,9 @@ rules:
   steps:
     - intent: search_user
     - action: action_search_user
+
+- rule: Contar un chiste cuando el usuario lo solicita
+  steps:
+     - intent: tell_joke
+     - action: utter_joke
+

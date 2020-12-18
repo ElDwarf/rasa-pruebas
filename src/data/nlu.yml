@@ -3,52 +3,35 @@ version: "2.0"
 nlu:
 - intent: greet
   examples: |
+    - hola
+    - alo
+    - que tal?
+    - buen dia
+    - buenas tardes
     - hey
-    - hello
-    - hi
-    - hello there
-    - good morning
-    - good evening
-    - moin
-    - hey there
-    - let's go
-    - hey dude
-    - goodmorning
-    - goodevening
-    - good afternoon
 
 - intent: goodbye
   examples: |
-    - good afternoon
-    - cu
-    - good by
-    - cee you later
-    - good night
-    - bye
-    - goodbye
-    - have a nice day
-    - see you around
-    - bye bye
-    - see you later
+    - chau
+    - adios
+    - nos vemos
+    - hasta la vista
 
 - intent: affirm
   examples: |
-    - yes
-    - y
-    - indeed
-    - of course
-    - that sounds good
-    - correct
+    - si
+    - exacto
+    - claro
+    - bien
+    - correcto
 
 - intent: deny
   examples: |
     - no
-    - n
-    - never
-    - I don't think so
-    - don't like that
-    - no way
-    - not really
+    - nunca
+    - no lo creo
+    - olvidalo
+    - me niego
 
 - intent: mood_great
   examples: |
@@ -86,10 +69,10 @@ nlu:
 
 - intent: bot_challenge
   examples: |
-    - are you a bot?
-    - are you a human?
-    - am I talking to a bot?
-    - am I talking to a human?
+    - sos un bot?
+    - sos humano?
+    - estoy hablando con un bot?
+    - estoy hablando con un humano?
 
 - intent: hello_world
   examples: |
@@ -106,3 +89,11 @@ nlu:
     - [1] (number)
     - [2] (number)
     - [3] (number)
+
+- intent: tell_joke
+  examples: |
+    - contame un chiste
+    - haceme reir
+    - sabes contar chistes?
+    - decime algo divertido
+
