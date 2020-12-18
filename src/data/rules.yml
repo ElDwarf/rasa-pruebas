@@ -16,3 +16,8 @@ rules:
   steps:
     - intent: hello_world
     - action: action_hello_world
+
+- rule: Say 'developer' anytime the user.
+  steps:
+    - intent: search_user
+    - action: action_search_user

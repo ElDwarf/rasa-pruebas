@@ -8,7 +8,7 @@
 # This is a simple example for a custom action which utters "Hello World!"
 
 from typing import Any, Text, Dict, List
-
+import pandas as pd
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 
@@ -16,7 +16,7 @@ from rasa_sdk.executor import CollectingDispatcher
 class ActionHelloWorld(Action):
 
     def name(self) -> Text:
-        return "action_hello_world"
+        return "action_search_user"
 
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
@@ -26,5 +26,5 @@ class ActionHelloWorld(Action):
         limit = tracker.latest_message['text']
         print(limit)
         data = pd.read_csv("./dataset/copy_data_credit.csv") 
-        dispatcher.utter_message(text=data.iloc[[limit]]))
+        dispatcher.utter_message(text=data.head())
         return []

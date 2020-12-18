@@ -100,3 +100,9 @@ nlu:
   examples: |
     - desarrollador
     - i am a hacker
+
+- intent: search_user
+  examples: |
+    - [1] (number)
+    - [2] (number)
+    - [3] (number)
