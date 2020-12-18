@@ -86,9 +86,9 @@ nlu:
 
 - intent: search_user
   examples: |
-    - [1] (number)
-    - [2] (number)
-    - [3] (number)
+    - [123456] (number)
+    - [2434543453] (number)
+    - [345353] (number)
 
 - intent: tell_joke
   examples: |

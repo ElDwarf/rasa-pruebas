@@ -17,7 +17,7 @@ rules:
     - intent: hello_world
     - action: action_hello_world
 
-- rule: Say 'developer' anytime the user.
+- rule: Actualizar mi fecha fecha de vencimiento.
   steps:
     - intent: search_user
     - action: action_search_user

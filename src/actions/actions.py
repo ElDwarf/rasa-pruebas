@@ -26,9 +26,9 @@ class ActionHelloWorld(Action):
         limit = tracker.latest_message['text']
         print(limit)
         df = pd.read_csv("./dataset/copy_data_credit.csv")
-        list_ids = [1,2,3,4,5,6,7,8,9]
+        list_ids = [1,2,3,4,5,6,7,8,9,10,11,12,13,14]
         value_random = random.choice(list_ids)
-        df.at[value_random,'USER_ID']= limit
-        dispatcher.utter_message(text="Este es tu credit id: {} , confirma tu numero de credito para ver opciones.".format(str(df['CRD_CREDIT_ID'][value_random])))
-
+        df.iloc[value_random,'USER_TEL'] = limit
+        df.to_csv("./dataset/copy_data_credit.csv")
+        dispatcher.utter_message(text="Este es tu credit id: {}".format(str(df['CRD_CREDIT_ID'][value_random])))
         return []
