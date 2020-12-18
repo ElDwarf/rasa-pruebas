@@ -16,23 +16,26 @@ actions:
 
 responses:
   utter_greet:
-  - text: "Hey! How are you?"
+  - text: "Hola! Como estás?"
 
   utter_cheer_up:
   - text: "Here is something to cheer you up:"
     image: "https://i.imgur.com/nGF1K8f.jpg"
 
   utter_did_that_help:
-  - text: "Did that help you?"
+  - text: "Te sirvió la ayuda?"
 
   utter_happy:
-  - text: "Great, carry on!"
+  - text: "Genial!"
 
   utter_goodbye:
-  - text: "Bye"
+  - text: "Chauchas!"
 
   utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
+  - text: "Si! Soy un bot y cariñonasmente me llamaron Meli!"
+
+  utter_joke:
+  - text: "— Abuelo, ¿por qué estás delante del ordenador con los ojos cerrados? — Es que Windows me ha dicho que cierre las pestañas."
 
 session_config:
   session_expiration_time: 60

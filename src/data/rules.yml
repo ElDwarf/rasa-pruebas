@@ -16,3 +16,8 @@ rules:
   steps:
     - intent: hello_world
     - action: action_hello_world
+
+- rule: Contar un chiste cuando el usuario lo solicita
+  steps:
+     - intent: tell_joke
+     - action: utter_joke
