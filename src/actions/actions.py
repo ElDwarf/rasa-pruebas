@@ -22,5 +22,9 @@ class ActionHelloWorld(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         dispatcher.utter_message(text="Hello World!")
-
+        #Get Input from user
+        limit = tracker.latest_message['text']
+        print(limit)
+        data = pd.read_csv("./dataset/copy_data_credit.csv") 
+        dispatcher.utter_message(text=data.iloc[[limit]]))
         return []
