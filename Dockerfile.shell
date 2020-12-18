@@ -8,6 +8,4 @@ RUN pip install -r dependecies.txt
 
 COPY src /app
 
-RUN rasa train
-
 CMD ["rasa", "shell"]
