@@ -36,7 +36,8 @@ responses:
   - text: "Si! Soy un bot y cariñonasmente me llamaron Meli!"
 
   utter_joke:
-  - text: "— Abuelo, ¿por qué estás delante del ordenador con los ojos cerrados? — Es que Windows me ha dicho que cierre las pestañas."
+  - text: "-Mira a nuestro hijo, jamás pensé que llegaría tan lejos. -jajajajja, esto de la catapulta es la hostia!, ¡trae al perro!"
+  - text: "- papá que es ¿el humor negro? + ¿ves ése hombre sin brazos?. Dile que aplauda - pero papá soy ciego + exacto"
 
 session_config:
   session_expiration_time: 60
