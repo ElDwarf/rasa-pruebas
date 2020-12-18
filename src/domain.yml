@@ -10,6 +10,7 @@ intents:
   - bot_challenge
   - hello_world
   - hello_world_1
+  - tell_joke
 
 actions:
   - action_hello_world
