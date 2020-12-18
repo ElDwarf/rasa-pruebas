@@ -11,7 +11,7 @@ from typing import Any, Text, Dict, List
 import pandas as pd
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
-
+import random
 
 class ActionHelloWorld(Action):
 
@@ -25,6 +25,10 @@ class ActionHelloWorld(Action):
         #Get Input from user
         limit = tracker.latest_message['text']
         print(limit)
-        data = pd.read_csv("./dataset/copy_data_credit.csv") 
-        dispatcher.utter_message(text=data.head())
+        df = pd.read_csv("./dataset/copy_data_credit.csv")
+        list_ids = [1,2,3,4,5,6,7,8,9]
+        value_random = random.choice(list_ids)
+        df.at[value_random,'USER_ID']= limit
+        dispatcher.utter_message(text="Este es tu credit id: {} , confirma tu numero de credito para ver opciones.".format(str(df['CRD_CREDIT_ID'][value_random])))
+
         return []
