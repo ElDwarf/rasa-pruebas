@@ -1,1 +1,1 @@
-docker-compose run-ti rasa:shell
+docker-compose run rasa_shell
