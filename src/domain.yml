@@ -39,6 +39,14 @@ responses:
   - text: "-Mira a nuestro hijo, jamás pensé que llegaría tan lejos. -jajajajja, esto de la catapulta es la hostia!, ¡trae al perro!"
   - text: "- papá que es ¿el humor negro? + ¿ves ése hombre sin brazos?. Dile que aplauda - pero papá soy ciego + exacto"
 
+  utter_please_rephrase:
+  - text: "Disculpame, me hicieron un grupo de nerds apurados. No te entendí, pero te sugiero esta publicación para que me disculpes: https://articulo.mercadolibre.com.ar/MLA-818184167-curso-completo-de-brujeria-mira-el-temario-_JM"
+  - text: "Disculpame, me hicieron un grupo de nerds apurados. No te entendí, pero te sugiero esta publicación para que me disculpes: https://articulo.mercadolibre.com.ar/MLA-831907244-cassette-curso-ingles-junior-salvat-bbc-1-y-2-zona-caballito-_JM"
+  - text: "Disculpame, me hicieron un grupo de nerds apurados. No te entendí, pero te sugiero esta publicación para que me disculpes: https://articulo.mercadolibre.com.ar/MLA-874694748-billete-de-100-roca-c-leyenda-convertible-de-curso-legal-_JM"
+  - text: "Disculpame, me hicieron un grupo de nerds apurados. No te entendí, pero te sugiero esta publicación para que me disculpes: https://articulo.mercadolibre.com.ar/MLA-864273690-busco-novia-west-highland-white-terrier-monte-grande-_JM"
+  - text: "Disculpame, me hicieron un grupo de nerds apurados. No te entendí, pero te sugiero esta publicación para que me disculpes: https://servicio.mercadolibre.com.ar/MLA-886139242-servicio-de-acompanante-para-mujeres-y-hombres-_JM"
+  - text: "Disculpame, me hicieron un grupo de nerds apurados. No te entendí, pero te sugiero esta publicación para que me disculpes: https://articulo.mercadolibre.com.ar/MLA-882027270-capa-para-afeitar-apto-para-barba-con-sopapas-para-espejo-_JM"
+
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
