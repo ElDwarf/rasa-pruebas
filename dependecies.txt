@@ -1,2 +1,2 @@
-rasa[full]
+rasa
 numpy==1.19.0rc1
